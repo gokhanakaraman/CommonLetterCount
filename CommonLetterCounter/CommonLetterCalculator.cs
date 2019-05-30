@@ -14,7 +14,7 @@ namespace CommonLetterCounter
             Dictionary<string, int> dictionary = new Dictionary<string, int>();
             Dictionary<string, int> dictionary2 = new Dictionary<string, int>();
 
-            for (int i = 0; i < word1.Length; i++)  //Word1 mapped to dictioanary
+            for (int i = 0; i < word1.Length; i++)  //Word1 mapped to dictioanary  
             {
                 if (!dictionary.ContainsKey(word1[i].ToString())) 
                 {
